@@ -17,7 +17,7 @@ const HomeProyects = () => {
               <h3 className="text-white mt-1 p-4">{proyect.thecnology}</h3>
             </div>
           </div>
-        ))}
+        ))} 
       </div>
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full items-center">
         {projects.map((project) => (
@@ -25,7 +25,7 @@ const HomeProyects = () => {
              <h2 className="text-lg font-extrabold md:text-xl my-4 py-4">{project.title}</h2>
              <div className="mb-4 my-6 font-bold bg-purpleDark opacity-85 w-full items-center">             
               <img src={project.image} className='w-full h-3/4 pb-4'/>
-              <h3 className="text-sm md:text-base text-white px-4">{project.description}</h3>
+              <h3 className="text-sm md:text-base text-white px-4"> {project.description}</h3>
               <h3 className="text-white mt-1 p-4 ">{project.program}</h3>
               <h3 className="text-white mt-1 p-4">{project.thecnology}</h3>
             </div>
